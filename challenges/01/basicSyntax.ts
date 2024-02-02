@@ -1,6 +1,5 @@
 // For this first challenge I'll be praticing using basic 
 // syntax like: template strings, arrow functions, and type annotations
-export{}
 import * as readlineSync from 'readline-sync';
 
 // Data type variables
