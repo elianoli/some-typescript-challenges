@@ -2,5 +2,14 @@
   "dependencies": {
     "@types/readline-sync": "^1.4.8",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
