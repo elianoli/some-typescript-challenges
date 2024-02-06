@@ -8,8 +8,10 @@
     "typescript": "^5.3.3"
   },
   "scripts": {
-    "start": "ts-node src/app.ts",
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "hello": "ts-node ./app.ts",
+    "01": "ts-node ./challenges/01/basicSyntax.ts",
+    "02": "ts-node ./challenges/02/interfaces.ts",
+    "03": "ts-node ./challenges/03/enum.ts",
+    "04": "ts-node ./challenges/04/classes.ts"
   }
 }
